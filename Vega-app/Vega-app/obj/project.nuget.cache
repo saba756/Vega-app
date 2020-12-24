@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JqzG4nFRq9+R/zceQbyP9JVKDn8X4TVmHzZRjEJ0qHrxPg8CfYXhCTq5pEFo5MiSrvataTQKNtHlXMsXbM3X2g==",
+  "dgSpecHash": "xqiW6KAZnxPvsh0x12nOKbDLZ2jZIkEoVS4KXc4gIn60mwoXpnv9mu4SGYVBO7SrJ7TSdfcsTXAvRDjvQFVSaA==",
   "success": true,
-  "projectFilePath": "D:\\vega-app\\Vega-app\\Vega-app\\Vega-app\\Vega-app.csproj",
+  "projectFilePath": "D:\\vega-app\\Vega-app-Api\\Vega-app\\Vega-app\\Vega-app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sata\\.nuget\\packages\\automapper\\6.1.1\\automapper.6.1.1.nupkg.sha512",
     "C:\\Users\\sata\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\3.0.1\\automapper.extensions.microsoft.dependencyinjection.3.0.1.nupkg.sha512",

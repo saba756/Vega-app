@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vega-app\\Vega-app\\Vega-app\\Vega-app\\Vega-app.csproj": {}
+    "D:\\vega-app\\Vega-app-Api\\Vega-app\\Vega-app\\Vega-app.csproj": {}
   },
   "projects": {
-    "D:\\vega-app\\Vega-app\\Vega-app\\Vega-app\\Vega-app.csproj": {
+    "D:\\vega-app\\Vega-app-Api\\Vega-app\\Vega-app\\Vega-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vega-app\\Vega-app\\Vega-app\\Vega-app\\Vega-app.csproj",
+        "projectUniqueName": "D:\\vega-app\\Vega-app-Api\\Vega-app\\Vega-app\\Vega-app.csproj",
         "projectName": "Vega-app",
-        "projectPath": "D:\\vega-app\\Vega-app\\Vega-app\\Vega-app\\Vega-app.csproj",
+        "projectPath": "D:\\vega-app\\Vega-app-Api\\Vega-app\\Vega-app\\Vega-app.csproj",
         "packagesPath": "C:\\Users\\sata\\.nuget\\packages\\",
-        "outputPath": "D:\\vega-app\\Vega-app\\Vega-app\\Vega-app\\obj\\",
+        "outputPath": "D:\\vega-app\\Vega-app-Api\\Vega-app\\Vega-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sata\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Vega_app.Persistence;
 
 namespace Vega_app.Migrations
 {
     [DbContext(typeof(VegaDbContext))]
-    partial class VegaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201225080906_VechileAdded")]
+    partial class VechileAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -70,6 +72,21 @@ namespace Vega_app.Migrations
                     b.ToTable("Models");
                 });
 
+            modelBuilder.Entity("Vega_app.Models.VechileFeature", b =>
+                {
+                    b.Property<int>("VehicleId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("FeatureId")
+                        .HasColumnType("int");
+
+                    b.HasKey("VehicleId", "FeatureId");
+
+                    b.HasIndex("FeatureId");
+
+                    b.ToTable("VechileFeature");
+                });
+
             modelBuilder.Entity("Vega_app.Models.Vehicle", b =>
                 {
                     b.Property<int>("Id")
@@ -106,21 +123,6 @@ namespace Vega_app.Migrations
                     b.ToTable("vehicles");
                 });
 
-            modelBuilder.Entity("Vega_app.Models.VehicleFeature", b =>
-                {
-                    b.Property<int>("VehicleId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("FeatureId")
-                        .HasColumnType("int");
-
-                    b.HasKey("VehicleId", "FeatureId");
-
-                    b.HasIndex("FeatureId");
-
-                    b.ToTable("VechileFeatures");
-                });
-
             modelBuilder.Entity("Vega_app.Models.Model", b =>
                 {
                     b.HasOne("Vega_app.Models.Make", "Make")
@@ -130,16 +132,7 @@ namespace Vega_app.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Vega_app.Models.Vehicle", b =>
-                {
-                    b.HasOne("Vega_app.Models.Model", "Model")
-                        .WithMany()
-                        .HasForeignKey("ModelId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("Vega_app.Models.VehicleFeature", b =>
+            modelBuilder.Entity("Vega_app.Models.VechileFeature", b =>
                 {
                     b.HasOne("Vega_app.Models.Feature", "Feature")
                         .WithMany()
@@ -150,6 +143,15 @@ namespace Vega_app.Migrations
                     b.HasOne("Vega_app.Models.Vehicle", "Vehicle")
                         .WithMany("Features")
                         .HasForeignKey("VehicleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Vega_app.Models.Vehicle", b =>
+                {
+                    b.HasOne("Vega_app.Models.Model", "Model")
+                        .WithMany()
+                        .HasForeignKey("ModelId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

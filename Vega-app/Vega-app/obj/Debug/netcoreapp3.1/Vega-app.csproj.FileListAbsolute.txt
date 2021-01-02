@@ -87,8 +87,6 @@ D:\vega-app\Vega-app-Api\Vega-app\vega-app\bin\Debug\netcoreapp3.1\runtimes\win\
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\obj\Debug\netcoreapp3.1\Vega-app.csprojAssemblyReference.cache
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\obj\Debug\netcoreapp3.1\Vega-app.AssemblyInfoInputs.cache
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\obj\Debug\netcoreapp3.1\Vega-app.AssemblyInfo.cs
-D:\vega-app\Vega-app-Api\Vega-app\vega-app\obj\Debug\netcoreapp3.1\Vega-app.csproj.CoreCompileInputs.cache
-D:\vega-app\Vega-app-Api\Vega-app\vega-app\obj\Debug\netcoreapp3.1\Vega-app.MvcApplicationPartsAssemblyInfo.cache
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\obj\Debug\netcoreapp3.1\Vega-app.RazorTargetAssemblyInfo.cache
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\obj\Debug\netcoreapp3.1\Vega-app.csproj.CopyComplete
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\obj\Debug\netcoreapp3.1\staticwebassets\Vega-app.StaticWebAssets.Manifest.cache
@@ -96,3 +94,8 @@ D:\vega-app\Vega-app-Api\Vega-app\vega-app\obj\Debug\netcoreapp3.1\staticwebasse
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\obj\Debug\netcoreapp3.1\Vega-app.dll
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\obj\Debug\netcoreapp3.1\Vega-app.pdb
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\obj\Debug\netcoreapp3.1\Vega-app.genruntimeconfig.cache
+D:\vega-app\Vega-app-Api\Vega-app\Vega-app\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\vega-app\Vega-app-Api\Vega-app\Vega-app\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\vega-app\Vega-app-Api\Vega-app\Vega-app\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\vega-app\Vega-app-Api\Vega-app\Vega-app\obj\Debug\netcoreapp3.1\Vega-app.csproj.CoreCompileInputs.cache
+D:\vega-app\Vega-app-Api\Vega-app\Vega-app\obj\Debug\netcoreapp3.1\Vega-app.MvcApplicationPartsAssemblyInfo.cache

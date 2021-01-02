@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 
 namespace Vega_app.Controllers.Resources
 {
-    public class ModelResource
+    public class QueryResultResources<T>
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int MakeId { get; set; }
+        public int TotalItems { get; set; }
+        public IEnumerable<T> Items { get; set; }
     }
 }

@@ -38,7 +38,7 @@ namespace Vega_app.Controllers
 
             vehicle.LastUpdate = DateTime.Now;
             vehicleRepository.Add(vehicle);
-            await unitOfWork.Complete();
+            await unitOfWork.CompleteAsync();
             vehicle = await vehicleRepository.GetVehicle(vehicle.Id);
             var result = mapper.Map<Vehicle, VehicleResource>(vehicle);
             return Ok(result);
@@ -53,7 +53,7 @@ namespace Vega_app.Controllers
                 return NotFound();
             mapper.Map<SaveVehicleResource, Vehicle>(vehicleResource, vehicle);
             vehicle.LastUpdate = DateTime.Now;
-            await unitOfWork.Complete();
+            await unitOfWork.CompleteAsync();
             vehicle = await vehicleRepository.GetVehicle(vehicle.Id);
             var result = mapper.Map<Vehicle, VehicleResource>(vehicle);
             return Ok(result);
@@ -65,7 +65,7 @@ namespace Vega_app.Controllers
             if (vehicle == null)
                 return NotFound();
             vehicleRepository.Remove(vehicle);
-            await unitOfWork.Complete();
+            await unitOfWork.CompleteAsync();
             return Ok(id);
         }
         [HttpGet("{id}")]

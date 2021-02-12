@@ -17,6 +17,7 @@ namespace Vega_app.Mapping
             CreateMap(typeof(QueryResult<>), typeof(QueryResultResources<>));
             CreateMap< VehicleQueryResource, VehicleQuery>();
             CreateMap<Make, MakeResource>();
+            CreateMap<Photo, PhotoResource>();
             CreateMap<Make, KeyValuePairResource>();
             CreateMap<Model, KeyValuePairResource>();
             CreateMap<Feature, KeyValuePairResource>();

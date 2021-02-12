@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Vega_app.Core;
+using Vega_app.Core.Models;
 using Vega_app.Persistence;
 
 namespace Vega_app
@@ -32,6 +33,7 @@ namespace Vega_app
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<PhotoSettings>(_config.GetSection("PhotoSettings"));
             services.AddScoped<IVehicleRepository,VehicleRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllers().AddNewtonsoftJson();

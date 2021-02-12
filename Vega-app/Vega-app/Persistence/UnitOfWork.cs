@@ -14,7 +14,7 @@ namespace Vega_app.Persistence
         {
             this.dbContext = dbContext;
         }
-        public async Task Complete()
+        public async Task CompleteAsync()
         {
             await dbContext.SaveChangesAsync();
         }

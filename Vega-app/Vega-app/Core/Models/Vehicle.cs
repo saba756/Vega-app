@@ -6,6 +6,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
+using Vega_app.Core.Models;
 
 namespace Vega_app.Models
 {
@@ -26,9 +27,11 @@ namespace Vega_app.Models
         public string ContactPhone { get; set; }
         public DateTime LastUpdate { get; set; }
         public ICollection<VehicleFeature> Features { get; set;}
+        public ICollection<Photo> Photos { get; set; }
         public Vehicle()
         {
             Features = new Collection<VehicleFeature>();
+            Photos = new Collection<Photo>();
         }
     }
 }

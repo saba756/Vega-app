@@ -49,7 +49,6 @@ D:\vega-app\Vega-app\Vega-app\Vega-app\obj\Debug\netcoreapp3.1\Vega-app.csproj.C
 D:\vega-app\Vega-app\Vega-app\Vega-app\obj\Debug\netcoreapp3.1\Vega-app.MvcApplicationPartsAssemblyInfo.cache
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\bin\Debug\netcoreapp3.1\appsettings.json
-D:\vega-app\Vega-app-Api\Vega-app\vega-app\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\bin\Debug\netcoreapp3.1\Vega-app.exe
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\bin\Debug\netcoreapp3.1\Vega-app.deps.json
 D:\vega-app\Vega-app-Api\Vega-app\vega-app\bin\Debug\netcoreapp3.1\Vega-app.runtimeconfig.json
@@ -99,3 +98,4 @@ D:\vega-app\Vega-app-Api\Vega-app\Vega-app\bin\Debug\netcoreapp3.1\Microsoft.Asp
 D:\vega-app\Vega-app-Api\Vega-app\Vega-app\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 D:\vega-app\Vega-app-Api\Vega-app\Vega-app\obj\Debug\netcoreapp3.1\Vega-app.csproj.CoreCompileInputs.cache
 D:\vega-app\Vega-app-Api\Vega-app\Vega-app\obj\Debug\netcoreapp3.1\Vega-app.MvcApplicationPartsAssemblyInfo.cache
+D:\vega-app\Vega-app-Api\Vega-app\Vega-app\obj\Debug\netcoreapp3.1\scopedcss\bundle\Vega-app.styles.css

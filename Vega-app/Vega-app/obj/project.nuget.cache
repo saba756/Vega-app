@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EgrAa4YZhr2HiAsIINNp5OWVxj1fok7KUJ/+M1swrqqm5id4+pQxIRwQ29kDs1vCtQPTbCp3wzlTiomcU9FBGw==",
+  "dgSpecHash": "RYuRQDxpmDOZtayZUkedeg6YvHAfNY+qQfJ3Qcgzmr49vmMUsEDHAw8jJ4MjvWlHl7EOiw+c3azIPsNerfAW9A==",
   "success": true,
   "projectFilePath": "D:\\vega-app\\Vega-app-Api\\Vega-app\\Vega-app\\Vega-app.csproj",
   "expectedPackageFiles": [
@@ -108,7 +108,8 @@
     "C:\\Users\\sata\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\sata\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\sata\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\sata\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\sata\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\sata\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
   ],
   "logs": []
 }

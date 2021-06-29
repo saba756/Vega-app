@@ -53,7 +53,8 @@ namespace Vega_app.Controllers
             
             if (file.Length > photoSettings.MaxBytes) return BadRequest("Max file size exceeded");
             if (!photoSettings.IsSupported(file.FileName)) return BadRequest("Invalid file type");
-            var uploadFolderPath = Path.Combine("Resources", "Images");
+            var uploadFolderPath = Path.GetFullPath("Resources/Images");
+                //.Combine("Resources", "Images");
             if (!Directory.Exists(uploadFolderPath))
                 Directory.CreateDirectory(uploadFolderPath);
             var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
@@ -63,7 +64,12 @@ namespace Vega_app.Controllers
             {
                 await file.CopyToAsync(stream);
             };
-            var photo = new Photo { FileName = fileName , FilePath = filePath};
+            
+            byte[] b = System.IO.File.ReadAllBytes(filePath);
+
+            var filedata = ("data:image/png;base64," + Convert.ToBase64String(b));
+
+            var photo = new Photo { FileName = fileName , FilePath = filePath, FileContent =  filedata };
             vehicle.Photos.Add(photo);
             await unitOfWork.CompleteAsync();
             return Ok(mapper.Map<Photo, PhotoResource>(photo));

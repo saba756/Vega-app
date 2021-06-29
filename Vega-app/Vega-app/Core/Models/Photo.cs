@@ -14,7 +14,7 @@ namespace Vega_app.Core.Models
         [StringLength(255)]
         public string FileName { get; set; }
         public string FilePath { get; set; }
-
+        public string FileContent { get; set; }
         public int VehicleId { get; set; }
     }
 }

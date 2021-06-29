@@ -71,7 +71,7 @@ namespace Vega_app
             {
                 FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), @"Resources")),
                 RequestPath = new PathString("/Resources")
-            });
+            }) ;
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
